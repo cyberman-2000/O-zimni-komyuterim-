@@ -1,0 +1,90 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: coral;
+}
+.header{
+    width: 70%;
+    margin: 0 auto;
+}
+h1{
+    color:#fff;
+    padding: 15px;
+}
+#menu{
+    background-color: #333;
+}
+.menu{
+    width: 70%;
+    margin: 0 auto;
+}
+.menu ul li{
+    display: inline;
+    list-style-type: none; 
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+    display: inline-block;
+}
+#tema{
+    background-image: url(../foto/pinokio.jpg);
+    background-position: center;
+    height: 250px;
+}
+.tema{
+    width: 70%;
+    margin: 0 auto;
+}
+.tema h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px ;
+}
+#oxiri{
+    margin-top: 30px;
+}
+.oxiri0{
+    width: 70%;
+    margin: 0 auto;
+}
+.oxiri{
+    width: 70%;
+    margin: 0 auto;
+    float: left;
+    box-sizing: border-box;
+}
+.oxiri2{
+    width: 30%;
+    float: left;
+    background-color: #333;
+    color: #fff;
+    padding: 25px 4px;
+    box-sizing: border-box;
+}
+
+#oxiri h3{
+    margin: 20px 0; 
+}
+
+#footer{
+    background-color:#333;
+    margin-top: 30px;
+}
+.clr{
+    clear: both;
+}
+.footer p{
+    clear: both;
+    text-align: center;
+    color: #fff;
+    padding: 35px;
+}
+
+
+

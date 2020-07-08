@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header{
+    background-color: #35424a;
+    border-bottom: 2px solid coral;
+}
+.header{
+    width: 70%;
+    margin: 0 auto;
+}
+.header h1{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+}
+span{
+    color: coral;
+}
+.header ul li{
+    list-style-type: none;
+    display: inline;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: inline-block;
+}
+ul{
+    float: right;
+}
+.header ul li .a3{
+    color: coral;
+}
+#search{
+    background-color: #35424a;
+}
+.search{
+    width: 70%;
+    margin: auto;
+}
+.search h2{
+    color: #fff;
+    display: inline-block;
+    padding: 20px 0;
+}
+.search form{
+    float: right;
+    padding: 20px;
+}
+.text{
+    height: 30px;
+}
+.qnop{
+    height: 31px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    padding: 2px;
+}
+#osnov{
+    width: 70%;
+    margin: 10px auto;
+}
+.osnov{
+    width: 60%;
+    float: left;
+}
+.osnov h3{
+    margin: 10px 0;
+}
+.osnov .ter-1{
+    background-color: rgb(215,215,215);
+    padding: 30px 20px 30px 15px;
+    margin-bottom: 4px;
+    border: 1px solid grey;
+}
+.osnov .ter-2{
+    background-color: rgb(215,215,215);
+    padding: 30px 20px 30px 15px;
+    margin-bottom: 4px;
+    border: 1px solid grey;
+}
+.osnov .ter-3{
+    background-color: rgb(215,215,215);
+    padding: 30px 20px 30px 15px;
+    
+    border: 1px solid grey;
+}
+.get{
+    width: 33%;
+    background-color: #35424a;
+    padding: 30px 25px 15px 10px;
+    float: left;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 55px;
+}
+.get h3 {
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 15px;
+    background-color: red;
+    margin-top: 5px;
+    border: none;
+}
+.tr1{
+    width: 350px;
+    height: 25px;
+}
+.tr2{
+    width: 350px;
+    height: 25px;
+}
+.tr3{
+    width: 353px;
+    height: 35px;
+}
+#footer{
+    background-color: rgb(252, 89, 30); 
+}
+.footer{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+.clr{
+    clear: both;
+}
+
