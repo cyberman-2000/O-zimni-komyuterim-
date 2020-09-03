@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 172, 158);
+    font-family: Roboto, sans-serif;
+}
+header{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 140px;
+    justify-content: space-evenly;
+}
+header h1{
+    font-size: 55px;
+    color: rgba(255, 255, 255, 0.63);
+}
+.first{
+    color: white;
+}
+header h1:hover{
+    color: rgba(255, 255, 255, 0.836);
+    cursor: pointer;
+}
+.first:hover{
+    color: white;
+}
+p{
+    margin: 50px 0 50px 195px;
+    width: 650px;
+    color: white;
+}
+.next{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.562);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next:hover{
+    background-color: rgba(255, 255, 255, 0.822);
+}
+section{
+    display: flex;
+}
+.left{
+    transform: rotate(-90deg);
+    opacity: 0.62;
+}
+.right{
+    transform: rotate(90deg);
+    opacity: 0.62;
+}
+.mar{
+    margin-left: 100px;
+}
+.next:hover{
+    cursor: pointer;
+}
+.midl{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.time{
+    background-color: #3e3c3d;
+}
+.temp{
+    background-color: #353334;
+}
+.los{
+    background-color: #201e1f;
+}
+.midl h3{
+    color: #d28f8b;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.midl h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+.start{
+    position: absolute;
+    bottom: 25px;
+    left: 220px;
+    background-color: black;
+    width: 240px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.start:hover{
+    bottom: 29px;
+    transition: 0.3s;
+}
+.start h1{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+

@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(../foto/background.jpg);
+    background-size: 1710px;
+    font-family:Roboto, sans-serif;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header{
+    width: 465px;
+    margin: 80px auto;
+    padding: 40px 35px;
+    background-color: white;
+    border-radius: 4px;
+}
+.header{
+    width: 90%;
+    margin: 0px auto;
+}
+.ss{
+    color: #3b8acf;
+    font-family: Prompt, sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    
+}
+span{
+    color: #d3e6f4;
+    margin: 0px 40px;
+}
+.name{
+    padding: 0;
+    color: #acabaa;
+    font-size: 16px;
+    
+}
+.flight{
+    margin-top: 60px;
+    color: #acabaa;
+    font-size: 14px;
+}
+.raq{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.pass{
+    color: #acabaa;
+}
+.user{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.clas{
+    color: #acabaa;
+}
+.bus{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.dep{
+    color: #acabaa;
+}
+.time{
+    font-size: 20px;
+}
+.float1{
+    float: left;
+}
+img{ 
+    float: left;
+    margin-left: 25px;
+}
+.clr{
+    clear: both;
+}
