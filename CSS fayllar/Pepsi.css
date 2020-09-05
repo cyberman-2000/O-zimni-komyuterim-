@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #0062be;
+    color: white;
+}
+section{
+    margin: 30px 100px 30px 150px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul ul{
+    display: flex;
+}
+.ul ul li{
+    list-style: none;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+h2{
+    margin-top: 30px;
+    font-size: 100px;
+}
+h1{
+    font-size: 200px;
+    font-weight: 900;
+    line-height: 150px;
+}
+p{
+    width: 800px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+h3{
+    background-color: white;
+    color: black;
+    width: 300px;
+    text-align: center;
+    padding: 13px;
+    border-radius: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.big{
+    margin: 80px 70px 0 0;
+}
+.banki{
+    position: absolute;
+    right: 50%;
+    bottom: 40px;
+    transform: translateX(50%);
+}
+.banki img{
+    margin-right: 50px;
+}
+.banki img:hover{
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.messengers{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.messengers img:hover{
+    cursor: pointer;
+}
+.messengers img{
+    margin-bottom: 50px;
+    filter: invert(1);
+}
+@media only screen and (max-width: 700px){
+    section{
+        margin: 20px 40px 10px 50px;
+    }
+    .ul ul li{
+        font-size: 12px;
+    }
+    .img img{
+        width: 40px;
+    }
+    .big{
+        width: 100px;
+        height: 200px;
+        margin: 40px 20px 0px 10px;
+    }
+    p{
+        width: 400px;
+        font-size: 10px;
+    }
+    .banki img{
+        width: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+        line-height: 30px;
+    }
+    h3{
+        width: 100px;
+        padding: 0px;
+        border-radius: 20px;
+        margin-top: 13px;
+    }
+    a{
+        font-size: 8px;
+        font-weight: bold;
+    }
+}
+
+
