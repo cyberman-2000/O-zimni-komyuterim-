@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4d515d;
+    font-family: Roboto, sans-serif;
+}
+#header{
+    width: 900px;
+    margin: 90px auto;
+    background-color: white;
+    border-radius: 7px;
+}
+.header{
+    display: flex;
+    width: 85%;
+    margin: 0px auto;
+
+}
+.os{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+p{
+    color: #b7adaa;
+    margin: 15px 0 60px 0;
+}
+h5{
+    color: #8b8b8c;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.click1{
+    width: 340px;
+    display: flex;
+    height:80px;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color:rgb(212, 211, 211) ;
+    padding
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.click2{
+    display: flex;
+    width: 340px;
+    height:80px;
+    align-items: center;
+    background-color:rgb(212, 211, 211) ;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.click3{
+    height:80px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(212, 211, 211);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+h1{
+    font-weight: lighter;
+    padding-top: 70px;
+    font-size: 40px;
+}
+.hov:hover{
+    color: black;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.3s;
+    box-shadow: 0 5px 10px rgb(151, 151, 151);
+}
+
